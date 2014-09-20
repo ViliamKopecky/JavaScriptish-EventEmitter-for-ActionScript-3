@@ -1,13 +1,13 @@
- ### Simple JavaScripty EventEmitter for ActionScript 3
+# JavaScriptish EventEmitter for ActionScript 3
 
- Keeping it simple stupid.
+Simple and stupid
 
- ```
- import com.viliamkopecky.EventEmitter;
+```
+import com.viliamkopecky.EventEmitter;
 
- var obj:EventEmitter = new EventEmitter();
+var obj:EventEmitter = new EventEmitter();
 
- obj.on('foo', function(e){ trace(e.data) });
+obj.on('foo', function(e){ trace(e.data) });
 
- obj.emit('foo', 'bar'); // prints out: bar
- ```
+obj.emit('foo', 'bar'); // prints out: bar
+```
